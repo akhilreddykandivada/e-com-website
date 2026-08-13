@@ -1,25 +1,16 @@
+# Spring Boot
+target/
+*.class
+
 # IntelliJ
 .idea/
 *.iml
 
-# Java
-target/
-*.class
+# React
+frontend/node_modules/
+frontend/dist/
 
-# Spring Boot
-*.log
-
-# Node
-node_modules/
-dist/
-
-# Environment files
+# Environment / secrets
 .env
 .env.*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Local application configuration
 application-local.properties
